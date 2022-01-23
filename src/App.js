@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavBar, NewCars } from "./ui-components";
+import "./App.css";
 
 function App() {
+  const navbarOverrides = {
+    "Flex.Flex[0].Image[0]": {
+      src: "https://img.icons8.com/color/50/000000/car--v1.png", // app logo
+    },
+    "Flex.Flex[2].Image[0]": {
+      src: "https://www.bootdey.com/app/webroot/img/Content/avatar/avatar1.png", // profile image
+    },
+  };
+
   return (
     <div className="App">
+      <NavBar overrides={navbarOverrides} width={"100%"}/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NewCars />
       </header>
     </div>
   );
