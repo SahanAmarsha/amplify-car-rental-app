@@ -20,7 +20,7 @@ export { default as HeroLayout2 } from "./HeroLayout2";
 export { default as CardD } from "./CardD";
 export { default as SocialB } from "./SocialB";
 export { default as NewCars } from "./NewCars";
-export { default as EditProfile } from "./EditProfile";
+export { default as AddCar } from "./AddCar";
 export { default as HeroLayout1 } from "./HeroLayout1";
 export { default as SocialA } from "./SocialA";
 export { default as CarRentalCard } from "./CarRentalCard";
