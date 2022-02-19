@@ -315,9 +315,9 @@ export default function ProductDetail(props) {
             position="absolute"
             padding="8px 16px 8px 16px"
             display="flex"
-            width="371px"
-            left="0px"
             top="189px"
+            left="0px"
+            width="371px"
             size="default"
             variation="primary"
             children="Primary Button"
@@ -325,11 +325,11 @@ export default function ProductDetail(props) {
           ></Button>
           <Flex
             gap="24px"
+            position="absolute"
+            top="40px"
+            left="0px"
             direction="row"
             alignItems="flex-start"
-            position="absolute"
-            left="0px"
-            top="40px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[1].Flex[0]")}
           >
@@ -390,11 +390,11 @@ export default function ProductDetail(props) {
           </Flex>
           <Flex
             gap="24px"
+            position="absolute"
+            top="112px"
+            left="0px"
             direction="row"
             alignItems="flex-start"
-            position="absolute"
-            left="0px"
-            top="112px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[1].Flex[1]")}
           >
@@ -467,8 +467,8 @@ export default function ProductDetail(props) {
             justifyContent="flex-start"
             textDecoration="underline"
             position="absolute"
-            left="300px"
             top="3px"
+            left="300px"
             padding="0px 0px 0px 0px"
             children="Size Guide"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[1].Text[0]")}
@@ -485,8 +485,8 @@ export default function ProductDetail(props) {
             justifyContent="flex-start"
             letterSpacing="0.010000000000000009px"
             position="absolute"
-            left="0px"
             top="0px"
+            left="0px"
             padding="0px 0px 0px 0px"
             children="Size "
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[1].Text[1]")}

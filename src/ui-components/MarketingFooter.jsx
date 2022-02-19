@@ -21,11 +21,11 @@ export default function MarketingFooter(props) {
       {...getOverrideProps(overrides, "View")}
     >
       <View
-        width="1440px"
-        height="400px"
         position="absolute"
-        left="0px"
-        top="0px"
+        top="0%"
+        bottom="0%"
+        left="0%"
+        right="0%"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(0,0,0,1)"
         {...getOverrideProps(overrides, "View.View[0]")}
@@ -42,19 +42,19 @@ export default function MarketingFooter(props) {
         justifyContent="flex-start"
         letterSpacing="0.010000000000000009px"
         position="absolute"
+        bottom="40px"
         left="40px"
-        top="336px"
         padding="0px 0px 0px 0px"
         children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna"
         {...getOverrideProps(overrides, "View.Text[0]")}
       ></Text>
       <Flex
         gap="24px"
+        position="absolute"
+        top="40px"
+        right="140px"
         direction="row"
         alignItems="flex-start"
-        position="absolute"
-        left="732px"
-        top="40px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "View.Flex[0]")}
       >
@@ -235,18 +235,18 @@ export default function MarketingFooter(props) {
         justifyContent="flex-start"
         letterSpacing="0.010000000000000009px"
         position="absolute"
-        left="1148px"
-        top="336px"
+        bottom="40px"
+        right="40px"
         padding="0px 0px 0px 0px"
         children="Lorem ipsum dolor sit amet 2021"
         {...getOverrideProps(overrides, "View.Text[1]")}
       ></Text>
       <Flex
         gap="16px"
-        direction="column"
         position="absolute"
-        left="40px"
         top="40px"
+        left="40px"
+        direction="column"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "View.Flex[1]")}
       >

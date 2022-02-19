@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "Car": {
-            "name": "Car",
+        "RentalCar": {
+            "name": "RentalCar",
             "fields": {
                 "id": {
                     "name": "id",
@@ -14,7 +14,7 @@ export const schema = {
                     "name": "name",
                     "isArray": false,
                     "type": "String",
-                    "isRequired": false,
+                    "isRequired": true,
                     "attributes": []
                 },
                 "price": {
@@ -56,7 +56,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "Cars",
+            "pluralName": "RentalCars",
             "attributes": [
                 {
                     "type": "model",
@@ -83,5 +83,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "51846f87c2717b1d7d15d19e10bc121d"
+    "version": "479c4d50898f5103669e6c1d804f1615"
 };

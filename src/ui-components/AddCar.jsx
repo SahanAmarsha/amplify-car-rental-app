@@ -88,7 +88,7 @@ export default function AddCar(props) {
             )}
           ></TextField>
           <TextField
-            label="price (USD)"
+            label="price per day (USD)"
             display="flex"
             shrink="0"
             alignSelf="stretch"

@@ -387,16 +387,18 @@ export default function FormCheckout(props) {
             width="405px"
             height="134px"
             position="absolute"
-            left="32px"
             top="194px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[0]")}
           >
             <Image
-              width="89px"
-              height="130px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="2.9850746268656714%"
+              height="97.01492537313433%"
+              left="0%"
+              right="78.02469135802468%"
+              width="21.975308641975317%"
               padding="0px 0px 0px 0px"
               {...getOverrideProps(
                 overrides,
@@ -415,8 +417,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.49px"
               position="absolute"
-              left="121px"
-              top="112px"
+              top="83.5820895522388%"
+              bottom="1.4925373134328357%"
+              left="29.876543209876544%"
+              right="37.53086419753087%"
               padding="0px 0px 0px 0px"
               children="Order Summary"
               {...getOverrideProps(
@@ -436,8 +440,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="32px"
+              top="23.88059701492537%"
+              bottom="58.2089552238806%"
+              left="29.876543209876544%"
+              right="59.75308641975309%"
               padding="0px 0px 0px 0px"
               children="Black"
               {...getOverrideProps(
@@ -457,8 +463,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="0px"
+              top="0%"
+              bottom="82.08955223880598%"
+              left="29.876543209876544%"
+              right="51.85185185185185%"
               padding="0px 0px 0px 0px"
               children="Basic Tee"
               {...getOverrideProps(
@@ -478,8 +486,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="64px"
+              top="47.76119402985074%"
+              bottom="34.32835820895522%"
+              left="29.876543209876544%"
+              right="59.25925925925925%"
               padding="0px 0px 0px 0px"
               children="Large"
               {...getOverrideProps(
@@ -488,16 +498,15 @@ export default function FormCheckout(props) {
               )}
             ></Text>
             <IconDelete
-              width="24px"
-              height="24px"
-              overflow="hidden"
               position="absolute"
-              left="381px"
-              top="0px"
+              top="0%"
+              bottom="82.08955223880598%"
+              left="94.07407407407408%"
+              right="0%"
+              overflow="hidden"
               padding="0px 0px 0px 0px"
               color="rgba(13.000000175088644,26.000000350177288,38.0000015348196,1)"
               type="delete"
-              fontSize="24px"
               {...getOverrideProps(
                 overrides,
                 "Flex.Flex[1].Flex[0].View[0].IconDelete[0]"
@@ -507,8 +516,10 @@ export default function FormCheckout(props) {
               width="64px"
               position="absolute"
               display="flex"
-              left="341px"
-              top="104px"
+              top="77.61194029850746%"
+              bottom="0%"
+              left="84.19753086419753%"
+              right="0%"
               size="small"
               labelHidden="true"
               variation="default"
@@ -519,28 +530,31 @@ export default function FormCheckout(props) {
             ></SelectField>
           </View>
           <Divider
-            width="469px"
             position="absolute"
-            left="0px"
-            top="362px"
+            top="41.60919540229885%"
+            bottom="58.27586206896552%"
+            left="0%"
+            right="0%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[0]")}
           ></Divider>
           <Divider
-            width="469px"
             position="absolute"
-            left="0px"
-            top="161px"
+            top="18.50574712643678%"
+            bottom="81.37931034482759%"
+            left="0%"
+            right="0%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[1]")}
           ></Divider>
           <Divider
-            width="469px"
             position="absolute"
-            left="0px"
-            top="72px"
+            top="8.275862068965518%"
+            bottom="91.60919540229885%"
+            left="0%"
+            right="0%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[2]")}
@@ -550,16 +564,18 @@ export default function FormCheckout(props) {
             width="405px"
             height="134px"
             position="absolute"
-            left="32px"
             top="395px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[1]")}
           >
             <Image
-              width="89px"
-              height="130px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="2.9850746268656714%"
+              height="97.01492537313433%"
+              left="0%"
+              right="78.02469135802468%"
+              width="21.975308641975317%"
               padding="0px 0px 0px 0px"
               {...getOverrideProps(
                 overrides,
@@ -578,8 +594,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.49px"
               position="absolute"
-              left="121px"
-              top="112px"
+              top="83.5820895522388%"
+              bottom="1.4925373134328357%"
+              left="29.876543209876544%"
+              right="37.53086419753087%"
               padding="0px 0px 0px 0px"
               children="Order Summary"
               {...getOverrideProps(
@@ -599,8 +617,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="32px"
+              top="23.88059701492537%"
+              bottom="58.2089552238806%"
+              left="29.876543209876544%"
+              right="59.75308641975309%"
               padding="0px 0px 0px 0px"
               children="Black"
               {...getOverrideProps(
@@ -620,8 +640,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="0px"
+              top="0%"
+              bottom="82.08955223880598%"
+              left="29.876543209876544%"
+              right="51.85185185185185%"
               padding="0px 0px 0px 0px"
               children="Basic Tee"
               {...getOverrideProps(
@@ -641,8 +663,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="121px"
-              top="64px"
+              top="47.76119402985074%"
+              bottom="34.32835820895522%"
+              left="29.876543209876544%"
+              right="59.25925925925925%"
               padding="0px 0px 0px 0px"
               children="Large"
               {...getOverrideProps(
@@ -651,16 +675,15 @@ export default function FormCheckout(props) {
               )}
             ></Text>
             <IconDelete
-              width="24px"
-              height="24px"
-              overflow="hidden"
               position="absolute"
-              left="381px"
-              top="0px"
+              top="0%"
+              bottom="82.08955223880598%"
+              left="94.07407407407408%"
+              right="0%"
+              overflow="hidden"
               padding="0px 0px 0px 0px"
               color="rgba(13.000000175088644,26.000000350177288,38.0000015348196,1)"
               type="delete"
-              fontSize="24px"
               {...getOverrideProps(
                 overrides,
                 "Flex.Flex[1].Flex[0].View[1].IconDelete[0]"
@@ -670,8 +693,10 @@ export default function FormCheckout(props) {
               width="64px"
               position="absolute"
               display="flex"
-              left="341px"
-              top="104px"
+              top="77.61194029850746%"
+              bottom="0%"
+              left="84.19753086419753%"
+              right="0%"
               size="small"
               labelHidden="true"
               variation="default"
@@ -682,10 +707,11 @@ export default function FormCheckout(props) {
             ></SelectField>
           </View>
           <Divider
-            width="469px"
             position="absolute"
-            left="0px"
-            top="563px"
+            top="64.71264367816092%"
+            bottom="35.172413793103445%"
+            left="0%"
+            right="0%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[3]")}
@@ -695,8 +721,8 @@ export default function FormCheckout(props) {
             width="405px"
             height="24px"
             position="absolute"
-            left="32px"
             top="596px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[2]")}
           >
             <Text
@@ -710,10 +736,11 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
-              width="77.75053405761719px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="80.80233726972416%"
               padding="0px 0px 0px 0px"
               children="Subtotal"
               {...getOverrideProps(
@@ -733,8 +760,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="340px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="83.9506172839506%"
+              right="0%"
               padding="0px 0px 0px 0px"
               children="$320.00"
               {...getOverrideProps(
@@ -748,8 +777,8 @@ export default function FormCheckout(props) {
             width="405px"
             height="24px"
             position="absolute"
-            left="32px"
             top="636px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[3]")}
           >
             <Text
@@ -763,10 +792,11 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
-              width="80.14285278320312px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="80.211641288098%"
               padding="0px 0px 0px 0px"
               children="Shipping"
               {...getOverrideProps(
@@ -786,8 +816,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="353px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="87.1604938271605%"
+              right="0%"
               padding="0px 0px 0px 0px"
               children="$15.00"
               {...getOverrideProps(
@@ -801,8 +833,8 @@ export default function FormCheckout(props) {
             width="405px"
             height="24px"
             position="absolute"
-            left="32px"
             top="676px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[4]")}
           >
             <Text
@@ -816,10 +848,11 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
-              width="53.82728958129883px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="86.70931121449411%"
               padding="0px 0px 0px 0px"
               children="Taxes"
               {...getOverrideProps(
@@ -839,8 +872,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.010000000000000009px"
               position="absolute"
-              left="350px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="86.41975308641975%"
+              right="0%"
               padding="0px 0px 0px 0px"
               children="$26.80"
               {...getOverrideProps(
@@ -850,10 +885,11 @@ export default function FormCheckout(props) {
             ></Text>
           </View>
           <Divider
-            width="405px"
             position="absolute"
-            left="32px"
-            top="716px"
+            top="82.29885057471265%"
+            bottom="17.586206896551722%"
+            left="6.823027718550106%"
+            right="6.823027718550106%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[4]")}
@@ -863,8 +899,8 @@ export default function FormCheckout(props) {
             width="405px"
             height="20px"
             position="absolute"
-            left="32px"
             top="733px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[5]")}
           >
             <Text
@@ -878,10 +914,11 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               letterSpacing="0.49px"
-              width="50.23880386352539px"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="87.59535707073447%"
               padding="0px 0px 0px 0px"
               children="Total"
               {...getOverrideProps(
@@ -901,8 +938,10 @@ export default function FormCheckout(props) {
               justifyContent="flex-start"
               letterSpacing="0.49px"
               position="absolute"
-              left="336px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="82.96296296296296%"
+              right="0%"
               padding="0px 0px 0px 0px"
               children="$361.80"
               {...getOverrideProps(
@@ -912,10 +951,11 @@ export default function FormCheckout(props) {
             ></Text>
           </View>
           <Divider
-            width="469px"
             position="absolute"
-            left="0px"
-            top="789px"
+            top="90.6896551724138%"
+            bottom="9.195402298850574%"
+            left="0%"
+            right="0%"
             size="small"
             orientation="horizontal"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].Divider[5]")}
@@ -923,9 +963,11 @@ export default function FormCheckout(props) {
           <Button
             position="absolute"
             display="flex"
+            top="94.48275862068965%"
+            bottom="0%"
+            left="6.823027718550106%"
+            right="6.823027718550106%"
             width="405px"
-            left="32px"
-            top="822px"
             size="large"
             variation="primary"
             children="Place Order"
@@ -936,20 +978,19 @@ export default function FormCheckout(props) {
             width="405px"
             height="24px"
             position="absolute"
-            left="32px"
             top="105px"
+            left="32px"
             {...getOverrideProps(overrides, "Flex.Flex[1].Flex[0].View[6]")}
           >
             <IconShoppingBag
-              width="24px"
-              height="24px"
-              overflow="hidden"
               position="absolute"
-              left="0px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="94.07407407407408%"
+              overflow="hidden"
               padding="0px 0px 0px 0px"
               type="shopping_bag"
-              fontSize="24px"
               {...getOverrideProps(
                 overrides,
                 "Flex.Flex[1].Flex[0].View[6].IconShoppingBag[0]"
@@ -966,8 +1007,10 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               position="absolute"
-              left="40px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="9.876543209876543%"
+              right="74.81481481481481%"
               padding="0px 0px 0px 0px"
               children="Cart (2)"
               {...getOverrideProps(
@@ -986,8 +1029,10 @@ export default function FormCheckout(props) {
               direction="column"
               justifyContent="flex-start"
               position="absolute"
-              left="343px"
-              top="0px"
+              top="0%"
+              bottom="0%"
+              left="84.69135802469135%"
+              right="0%"
               padding="0px 0px 0px 0px"
               children="$101.70"
               {...getOverrideProps(
@@ -1001,9 +1046,9 @@ export default function FormCheckout(props) {
             position="absolute"
             backgroundColor="rgba(214.00000244379044,245.00000059604645,219.0000021457672,1)"
             display="flex"
-            width="405px"
-            left="32px"
             top="0px"
+            left="32px"
+            width="405px"
             fontFamily="Inter"
             fontWeight="700"
             fontSize="16px"

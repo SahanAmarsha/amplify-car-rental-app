@@ -38,8 +38,8 @@ export default function CardE(props) {
           position="absolute"
           padding="4px 8px 4px 8px"
           display="flex"
-          left="0px"
           top="0px"
+          left="0px"
           fontFamily="Inter"
           fontWeight="700"
           fontSize="16px"
@@ -56,10 +56,10 @@ export default function CardE(props) {
         ></Badge>
         <Flex
           gap="0"
-          direction="column"
           position="absolute"
+          bottom="0px"
           left="0px"
-          top="240px"
+          direction="column"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Flex.View[0].Flex[0]")}
         >
@@ -108,8 +108,8 @@ export default function CardE(props) {
           direction="column"
           justifyContent="flex-start"
           position="absolute"
-          left="256px"
-          top="264px"
+          bottom="0px"
+          right="0px"
           padding="0px 0px 0px 0px"
           children="$99"
           {...getOverrideProps(overrides, "Flex.View[0].Text[0]")}

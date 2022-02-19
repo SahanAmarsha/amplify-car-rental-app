@@ -21,11 +21,13 @@ export default function CardD(props) {
       {...getOverrideProps(overrides, "View")}
     >
       <Image
-        width="320px"
-        height="320px"
         position="absolute"
-        left="0px"
-        top="0px"
+        top="0%"
+        bottom="0%"
+        height="100%"
+        left="0%"
+        right="0%"
+        width="100%"
         borderRadius="8px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "View.Image[0]")}
@@ -41,8 +43,8 @@ export default function CardD(props) {
         direction="column"
         justifyContent="flex-start"
         position="absolute"
-        left="101px"
-        top="240px"
+        bottom="40px"
+        left="calc(50% - 59px - 0px)"
         padding="0px 0px 0px 0px"
         children="Explore"
         {...getOverrideProps(overrides, "View.Text[0]")}

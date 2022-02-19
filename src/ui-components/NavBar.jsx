@@ -27,7 +27,7 @@ export default function NavBar(props) {
       <Flex
         gap="2px"
         direction="row"
-        height="48px"
+        height="50px"
         justifyContent="center"
         alignItems="center"
         shrink="0"
@@ -38,7 +38,7 @@ export default function NavBar(props) {
       >
         <Image
           width="50px"
-          height="48px"
+          height="50px"
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
@@ -63,47 +63,17 @@ export default function NavBar(props) {
         ></Text>
       </Flex>
       <Flex
-        gap="40px"
-        direction="row"
-        width="569.5px"
-        alignItems="center"
-        grow="1"
-        basis="569.5px"
-        height="24px"
-        position="relative"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Flex.Flex[1]")}
-      >
-        <Text
-          fontFamily="Inter"
-          fontSize="16px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="24px"
-          textAlign="left"
-          display="flex"
-          direction="column"
-          justifyContent="flex-start"
-          letterSpacing="0.010000000000000009px"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          children="Dashboard"
-          {...getOverrideProps(overrides, "Flex.Flex[1].Text[0]")}
-        ></Text>
-      </Flex>
-      <Flex
         gap="32px"
         direction="row"
-        width="569.5px"
+        width="1159px"
         justifyContent="flex-end"
         alignItems="center"
         grow="1"
-        basis="569.5px"
+        basis="1159px"
         height="45px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Flex.Flex[2]")}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Button
           gap="0"
@@ -114,7 +84,7 @@ export default function NavBar(props) {
           size="small"
           variation="primary"
           children="Sign out"
-          {...getOverrideProps(overrides, "Flex.Flex[2].Button[0]")}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Button[0]")}
         ></Button>
         <Image
           width="45px"
@@ -123,7 +93,7 @@ export default function NavBar(props) {
           position="relative"
           borderRadius="160px"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Flex.Flex[2].Image[0]")}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Image[0]")}
         ></Image>
       </Flex>
     </Flex>

@@ -22,11 +22,13 @@ export default function HeroLayout2(props) {
       {...getOverrideProps(overrides, "View")}
     >
       <Image
-        width="1440px"
-        height="858px"
         position="absolute"
-        left="0px"
-        top="0px"
+        top="0%"
+        bottom="0%"
+        height="100%"
+        left="0%"
+        right="0%"
+        width="100%"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "View.Image[0]")}
       ></Image>
@@ -35,8 +37,10 @@ export default function HeroLayout2(props) {
         position="absolute"
         backgroundColor="rgba(0,0,0,0.5)"
         display="flex"
-        left="0px"
-        top="0px"
+        top="0%"
+        bottom="0%"
+        left="0%"
+        right="0%"
         {...getOverrideProps(overrides, "View.HeroLayout3[0]")}
       ></HeroLayout3>
     </View>

@@ -9,7 +9,7 @@ import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function CarRentalCard(props) {
-  const { car, overrides: overridesProp, ...rest } = props;
+  const { rentalCar, overrides: overridesProp, ...rest } = props;
   const overrides = { ...overridesProp };
   return (
     <Flex
@@ -30,7 +30,7 @@ export default function CarRentalCard(props) {
         alignSelf="stretch"
         position="relative"
         padding="0px 0px 0px 0px"
-        src={car?.imageUrl}
+        src={rentalCar?.imageUrl}
         {...getOverrideProps(overrides, "Flex.Image[0]")}
       ></Image>
       <Flex
@@ -66,7 +66,7 @@ export default function CarRentalCard(props) {
             alignSelf="stretch"
             position="relative"
             padding="0px 0px 0px 0px"
-            children={`${"$"}${car?.price}${" /day"}`}
+            children={`${"$"}${rentalCar?.price}${" /day"}`}
             {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0].Text[0]")}
           ></Text>
           <Text
@@ -85,7 +85,7 @@ export default function CarRentalCard(props) {
             alignSelf="stretch"
             position="relative"
             padding="0px 0px 0px 0px"
-            children={car?.name}
+            children={rentalCar?.name}
             {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0].Text[1]")}
           ></Text>
           <Text
@@ -103,7 +103,7 @@ export default function CarRentalCard(props) {
             alignSelf="stretch"
             position="relative"
             padding="0px 0px 0px 0px"
-            children={car?.description}
+            children={rentalCar?.description}
             {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0].Text[2]")}
           ></Text>
         </Flex>
