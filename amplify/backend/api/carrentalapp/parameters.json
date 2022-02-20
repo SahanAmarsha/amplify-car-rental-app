@@ -1,5 +1,0 @@
-{
-  "AppSyncApiName": "carrentalapp",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
-}

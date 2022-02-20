@@ -1,7 +1,0 @@
-type Car @model @auth(rules: [{allow: public}]) {
-  id: ID!
-  name: String
-  price: Float
-  description: String
-  imageUrl: String
-}
